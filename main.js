@@ -1,3 +1,5 @@
 function showTime(){
-    alert("Test");
+    const now = new Date();
+    alert(now.toLocaleString());
+
 }
